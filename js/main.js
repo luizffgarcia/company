@@ -159,12 +159,11 @@
 
     // Observe cards and step items
     var selectors = [
-      '.value-card',
-      '.service-card',
-      '.step-item',
+      '.card',
+      '.step',
       '.hero-inner > *',
-      '.contact-text > *',
-      '.contact-form'
+      '.contact-intro > *',
+      '#contact-form'
     ];
 
     document.querySelectorAll(selectors.join(',')).forEach(function (el, i) {

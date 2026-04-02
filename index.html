@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COMPANY</title>
+  <meta name="description" data-pt="Software sob medida com Inteligência Artificial para o seu negócio." data-en="Custom software powered by Artificial Intelligence for your business." content="Software sob medida com Inteligência Artificial para o seu negócio." />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- =========================================================
+       NAVBAR
+  ========================================================= -->
+  <header id="navbar">
+    <nav class="nav-container">
+
+      <!-- Logo -->
+      <a href="#" class="nav-logo" aria-label="COMPANY">
+        <img src="assets/logo.svg" alt="COMPANY logo" width="36" height="36" />
+        <span class="nav-logo-text">COMPANY</span>
+      </a>
+
+      <!-- Desktop nav links -->
+      <ul class="nav-links" role="list">
+        <li><a href="#about"    data-pt="Sobre"          data-en="About">Sobre</a></li>
+        <li><a href="#services" data-pt="Serviços"       data-en="Services">Serviços</a></li>
+        <li><a href="#how"      data-pt="Como Funciona"  data-en="How It Works">Como Funciona</a></li>
+        <li><a href="#contact"  data-pt="Contato"        data-en="Contact">Contato</a></li>
+      </ul>
+
+      <!-- Right controls -->
+      <div class="nav-actions">
+        <button id="lang-toggle" class="btn-lang" aria-label="Toggle language">PT</button>
+        <a href="#contact" class="btn btn-primary" data-pt="Iniciar Projeto" data-en="Start a Project">Iniciar Projeto</a>
+        <!-- Hamburger -->
+        <button id="hamburger" class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </nav>
+
+    <!-- Mobile drawer -->
+    <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+      <ul role="list">
+        <li><a href="#about"    data-pt="Sobre"          data-en="About">Sobre</a></li>
+        <li><a href="#services" data-pt="Serviços"       data-en="Services">Serviços</a></li>
+        <li><a href="#how"      data-pt="Como Funciona"  data-en="How It Works">Como Funciona</a></li>
+        <li><a href="#contact"  data-pt="Contato"        data-en="Contact">Contato</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary btn-full" data-pt="Iniciar Projeto" data-en="Start a Project">Iniciar Projeto</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- =========================================================
+         HERO
+    ========================================================= -->
+    <section id="hero">
+      <div class="container hero-inner">
+
+        <span class="badge" data-pt="Tecnologia + Inteligência Artificial" data-en="Technology + Artificial Intelligence">
+          Tecnologia + Inteligência Artificial
+        </span>
+
+        <h1 data-pt="Software sob medida, entregue na velocidade da IA." data-en="Custom software, delivered at the speed of AI.">
+          Software sob medida, entregue na velocidade da IA.
+        </h1>
+
+        <p class="hero-sub" data-pt="Transformamos necessidades reais de negócio em sistemas robustos. Com inteligência artificial, entregamos mais rápido, com mais qualidade e menos retrabalho." data-en="We turn real business needs into robust software systems. Using artificial intelligence, we deliver faster, with higher quality and less rework.">
+          Transformamos necessidades reais de negócio em sistemas robustos. Com inteligência artificial, entregamos mais rápido, com mais qualidade e menos retrabalho.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary btn-lg" data-pt="Iniciar Projeto" data-en="Start a Project">Iniciar Projeto</a>
+          <a href="#how"     class="btn btn-ghost  btn-lg" data-pt="Ver Como Funciona" data-en="See How It Works">Ver Como Funciona</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         ABOUT
+    ========================================================= -->
+    <section id="about">
+      <div class="container">
+
+        <p class="section-label" data-pt="Por que nós" data-en="Why us">Por que nós</p>
+        <h2 data-pt="IA como alavanca, não como promessa." data-en="AI as leverage, not as a buzzword.">
+          IA como alavanca, não como promessa.
+        </h2>
+
+        <div class="cards-grid cards-grid--3">
+
+          <!-- Card 1 -->
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+              </svg>
+            </div>
+            <h3 data-pt="Velocidade real" data-en="Real speed">Velocidade real</h3>
+            <p data-pt="Utilizamos IA para acelerar cada etapa do desenvolvimento, do planejamento à entrega." data-en="We use AI to accelerate every development stage, from planning to delivery.">
+              Utilizamos IA para acelerar cada etapa do desenvolvimento, do planejamento à entrega.
+            </p>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h3 data-pt="Qualidade sem concessões" data-en="Uncompromising quality">Qualidade sem concessões</h3>
+            <p data-pt="Automação inteligente de testes e revisão de código garante software confiável e escalável." data-en="Intelligent test automation and code review ensures reliable and scalable software.">
+              Automação inteligente de testes e revisão de código garante software confiável e escalável.
+            </p>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="3"/>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/>
+              </svg>
+            </div>
+            <h3 data-pt="Feito sob medida" data-en="Built to fit">Feito sob medida</h3>
+            <p data-pt="Nenhum sistema genérico. Cada solução é projetada para o problema específico do seu negócio." data-en="No generic systems. Every solution is designed for your specific business problem.">
+              Nenhum sistema genérico. Cada solução é projetada para o problema específico do seu negócio.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SERVICES
+    ========================================================= -->
+    <section id="services">
+      <div class="container">
+
+        <p class="section-label" data-pt="Serviços" data-en="Services">Serviços</p>
+        <h2 data-pt="O que construímos para você" data-en="What we build for you">
+          O que construímos para você
+        </h2>
+
+        <div class="cards-grid cards-grid--3">
+
+          <!-- Service 1 -->
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>
+              </svg>
+            </div>
+            <h3 data-pt="Aplicações Web" data-en="Web Applications">Aplicações Web</h3>
+            <p data-pt="Sistemas web robustos, escaláveis e de alta performance para o seu negócio." data-en="Robust, scalable and high-performance web systems for your business.">
+              Sistemas web robustos, escaláveis e de alta performance para o seu negócio.
+            </p>
+          </article>
+
+          <!-- Service 2 -->
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/>
+              </svg>
+            </div>
+            <h3 data-pt="Apps Mobile" data-en="Mobile Apps">Apps Mobile</h3>
+            <p data-pt="Aplicativos nativos e híbridos para iOS e Android com experiência de usuário excepcional." data-en="Native and hybrid apps for iOS and Android with exceptional user experience.">
+              Aplicativos nativos e híbridos para iOS e Android com experiência de usuário excepcional.
+            </p>
+          </article>
+
+          <!-- Service 3 -->
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/>
+              </svg>
+            </div>
+            <h3 data-pt="Integrações e APIs" data-en="Integrations &amp; APIs">Integrações e APIs</h3>
+            <p data-pt="Conectamos seus sistemas existentes e construímos APIs robustas para escalar operações." data-en="We connect your existing systems and build robust APIs to scale operations.">
+              Conectamos seus sistemas existentes e construímos APIs robustas para escalar operações.
+            </p>
+          </article>
+
+          <!-- Service 4 -->
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 8v4l3 3"/><path d="M18 2v4h4"/>
+              </svg>
+            </div>
+            <h3 data-pt="Automação com IA" data-en="AI Automation">Automação com IA</h3>
+            <p data-pt="Automatizamos processos repetitivos usando inteligência artificial e machine learning." data-en="We automate repetitive processes using artificial intelligence and machine learning.">
+              Automatizamos processos repetitivos usando inteligência artificial e machine learning.
+            </p>
+          </article>
+
+          <!-- Service 5 -->
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+              </svg>
+            </div>
+            <h3 data-pt="Plataformas SaaS" data-en="SaaS Platforms">Plataformas SaaS</h3>
+            <p data-pt="Desenvolvemos produtos digitais do zero, prontos para crescer com a sua base de clientes." data-en="We develop digital products from scratch, ready to scale with your customer base.">
+              Desenvolvemos produtos digitais do zero, prontos para crescer com a sua base de clientes.
+            </p>
+          </article>
+
+          <!-- Service 6 -->
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+              </svg>
+            </div>
+            <h3 data-pt="Consultoria Técnica" data-en="Technical Consulting">Consultoria Técnica</h3>
+            <p data-pt="Diagnóstico e roadmap tecnológico para empresas que querem modernizar seus sistemas." data-en="Tech diagnosis and roadmap for companies looking to modernize their systems.">
+              Diagnóstico e roadmap tecnológico para empresas que querem modernizar seus sistemas.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         HOW IT WORKS
+    ========================================================= -->
+    <section id="how">
+      <div class="container">
+
+        <p class="section-label" data-pt="Processo" data-en="Process">Processo</p>
+        <h2 data-pt="Da ideia ao software em produção" data-en="From idea to production software">
+          Da ideia ao software em produção
+        </h2>
+
+        <ol class="steps-list" role="list">
+
+          <li class="step">
+            <div class="step-number" aria-hidden="true">01</div>
+            <div class="step-content">
+              <h3 data-pt="Diagnóstico" data-en="Discovery">Diagnóstico</h3>
+              <p data-pt="Entendemos profundamente o seu negócio, mapeamos o problema e definimos o escopo ideal." data-en="We deeply understand your business, map the problem and define the ideal scope.">
+                Entendemos profundamente o seu negócio, mapeamos o problema e definimos o escopo ideal.
+              </p>
+            </div>
+          </li>
+
+          <li class="step">
+            <div class="step-number" aria-hidden="true">02</div>
+            <div class="step-content">
+              <h3 data-pt="Desenvolvimento com IA" data-en="AI-powered Build">Desenvolvimento com IA</h3>
+              <p data-pt="Nossa equipe usa IA para escrever, revisar e testar código com velocidade e precisão superiores." data-en="Our team uses AI to write, review and test code with superior speed and precision.">
+                Nossa equipe usa IA para escrever, revisar e testar código com velocidade e precisão superiores.
+              </p>
+            </div>
+          </li>
+
+          <li class="step">
+            <div class="step-number" aria-hidden="true">03</div>
+            <div class="step-content">
+              <h3 data-pt="Entrega e Suporte" data-en="Delivery &amp; Support">Entrega e Suporte</h3>
+              <p data-pt="Deploy em produção com monitoramento contínuo e suporte dedicado pós-lançamento." data-en="Production deployment with continuous monitoring and dedicated post-launch support.">
+                Deploy em produção com monitoramento contínuo e suporte dedicado pós-lançamento.
+              </p>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         CONTACT
+    ========================================================= -->
+    <section id="contact">
+      <div class="container contact-inner">
+
+        <div class="contact-intro">
+          <h2 data-pt="Vamos conversar?" data-en="Let's talk?">Vamos conversar?</h2>
+          <p data-pt="Conte-nos sobre o seu projeto. Respondemos em até 24 horas." data-en="Tell us about your project. We respond within 24 hours.">
+            Conte-nos sobre o seu projeto. Respondemos em até 24 horas.
+          </p>
+        </div>
+
+        <form
+          id="contact-form"
+          action="https://formspree.io/f/YOUR_FORM_ID"
+          method="POST"
+          novalidate
+        >
+          <div class="form-row form-row--2">
+
+            <div class="form-group">
+              <label for="name" data-pt="Nome" data-en="Name">Nome</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                data-placeholder-pt="Seu nome completo"
+                data-placeholder-en="Your full name"
+                placeholder="Seu nome completo"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email" data-pt="E-mail" data-en="Email">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                data-placeholder-pt="seu@email.com"
+                data-placeholder-en="your@email.com"
+                placeholder="seu@email.com"
+              />
+            </div>
+
+          </div>
+
+          <div class="form-group">
+            <label for="company" data-pt="Empresa" data-en="Company">Empresa</label>
+            <input
+              type="text"
+              id="company"
+              name="company"
+              data-placeholder-pt="Nome da sua empresa"
+              data-placeholder-en="Your company name"
+              placeholder="Nome da sua empresa"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message" data-pt="Mensagem" data-en="Message">Mensagem</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+              data-placeholder-pt="Descreva seu projeto..."
+              data-placeholder-en="Describe your project..."
+              placeholder="Descreva seu projeto..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg btn-submit" id="form-submit">
+            <span class="btn-label" data-pt="Enviar Mensagem" data-en="Send Message">Enviar Mensagem</span>
+            <span class="btn-loading" aria-hidden="true" hidden>
+              <svg class="spinner" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                <path d="M21 12a9 9 0 1 1-6.219-8.56"/>
+              </svg>
+            </span>
+          </button>
+
+          <p id="form-status" role="alert" aria-live="polite" hidden></p>
+
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================
+       FOOTER
+  ========================================================= -->
+  <footer>
+    <div class="container footer-inner">
+
+      <div class="footer-brand">
+        <a href="#" class="nav-logo" aria-label="COMPANY">
+          <img src="assets/logo.svg" alt="COMPANY logo" width="32" height="32" />
+          <span class="nav-logo-text">COMPANY</span>
+        </a>
+        <p class="footer-tagline" data-pt="Software inteligente para negócios reais." data-en="Intelligent software for real businesses.">
+          Software inteligente para negócios reais.
+        </p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <ul role="list">
+          <li><a href="#about"    data-pt="Sobre"          data-en="About">Sobre</a></li>
+          <li><a href="#services" data-pt="Serviços"       data-en="Services">Serviços</a></li>
+          <li><a href="#how"      data-pt="Como Funciona"  data-en="How It Works">Como Funciona</a></li>
+          <li><a href="#contact"  data-pt="Contato"        data-en="Contact">Contato</a></li>
+        </ul>
+      </nav>
+
+      <p class="footer-copy">© 2026 COMPANY. Todos os direitos reservados.</p>
+
+    </div>
+  </footer>
+
+  <!-- =========================================================
+       WHATSAPP FAB
+  ========================================================= -->
+  <a
+    href="https://wa.me/+5511999999999"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="whatsapp-fab"
+    aria-label="Chat on WhatsApp"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
